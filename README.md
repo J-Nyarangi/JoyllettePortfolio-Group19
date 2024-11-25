@@ -1,6 +1,6 @@
 # Joyllette Nyarangi's Portfolio
 
-Welcome to the repository of Joyllette Nyarangi's personal portfolio website. This project showcases my skills, experience, and projects as an Informatics & Computer Science student with a passion for web and mobile development.
+Welcome to the repository if my personal portfolio website. This project showcases my skills, experience, and projects with a passion for web and mobile development.
 
 ## 🚀 Project Overview
 
@@ -17,10 +17,6 @@ This portfolio website is designed to provide a glimpse into my professional bac
 ## 💻 Technologies Used
 
 - **HTML, CSS**: For the structure and styling of the website.
-- **JavaScript**: Adds interactivity and enhances user experience.
-- **PHP / Formspree / EmailJS**: Handling contact form submissions.
-- **Font Awesome**: Icons used throughout the website for visual appeal.
-- **Google Fonts**: Custom fonts for better typography.
 
 ## 📂 File Structure
 
@@ -39,18 +35,18 @@ This portfolio website is designed to provide a glimpse into my professional bac
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/J-Nyarangi/Portfolio-GroupName.git
+   git clone https://github.com/J-Nyarangi/JoyllettePortfolio-Group19.git
    ```
 2. Open `index.html` in your browser to view the website.
 
 ## 🌐 Live Demo
 
 This portfolio is deployed on GitHub Pages. You can view it live at:
-[https://J-Nyarangi.github.io/Portfolio-GroupName](https://J-Nyarangi.github.io/Portfolio-GroupName)
+[https://J-Nyarangi.github.io/JoyllettePortfolio-Group19](https://J-Nyarangi.github.io/JoyllettePortfolio-Group19)
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you want to make improvements to the project:
+Contributions are welcome! If you want to make improvements:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/YourFeatureName`).
