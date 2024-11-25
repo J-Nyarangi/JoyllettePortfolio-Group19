@@ -21,7 +21,6 @@ This portfolio website is designed to provide a glimpse into my professional bac
 
 - `index.html`: The main HTML page for the portfolio.
 - `styles.css`: The main stylesheet that controls the look and feel of the website.
-- `images/`: Folder containing all images used in the portfolio.
 
 ##  Getting Started
 
