@@ -10,7 +10,6 @@ This portfolio website is designed to provide a glimpse into my professional bac
 
 - **About Me**: A brief introduction about myself, my passion, and what drives me.
 - **Skills**: My key technical skills, including programming languages, web development, and mobile development.
-- **Services**: The services I offer such as UI/UX Design, App Development, and Web Development.
 - **Projects**: A showcase of some of my personal and academic projects.
 - **Contact**: A simple way for collaborators, employers, or anyone to get in touch with me.
 
