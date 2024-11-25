@@ -44,16 +44,6 @@ This portfolio website is designed to provide a glimpse into my professional bac
 This portfolio is deployed on GitHub Pages. You can view it live at:
 [https://J-Nyarangi.github.io/JoyllettePortfolio-Group19](https://J-Nyarangi.github.io/JoyllettePortfolio-Group19)
 
-## 🤝 Contributing
-
-Contributions are welcome! If you want to make improvements:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeatureName`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeatureName`).
-5. Open a pull request.
-
 ## 📧 Contact
 
 If you have any questions or suggestions, feel free to reach out!
