@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyllette Nyarangi Portfolio</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN for Font Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script>
+        function showTab(tabName) {
+            const tabs = document.querySelectorAll('.tab-content');
+            tabs.forEach(tab => tab.style.display = 'none');
+            document.getElementById(tabName).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <button class="chat-btn">Let's Chat</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h3>WELCOME TO MY WORLD</h3>
+            <h1>Hi, I'm Joyllette</h1>
+            <p>A tech enthusiast who loves building cool stuff! Whether I'm tinkering with code, crafting user-friendly designs, or brainstorming with others, I'm all about making things that matter. I love the thrill of turning ideas into reality and having fun while doing it!</p>
+            <div class="hero-buttons">
+                <a href="Joyllette_CV.pdf" download><button class="download-cv-btn">Download CV <i class="fa fa-download"></i></button></a>
+            </div>
+            <div class="hero-social">
+                <a href="https://github.com/J-Nyarangi" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/joylette-nyarangi-442491297/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/joyllette_n" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="joy.jpeg" alt="Joyllette Nyanduko Nyarangi">
+        </div>
+    </section>
+
+    <!-- Wavy SVG Divider After Hero Section -->
+    <div class="wave" style="height: 150px; overflow: hidden;">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C150.00,150.00 349.54,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #f3e8ff;"></path>
+        </svg>
+    </div>
+
+    <section class="about-me" id="about">
+        <h1 class="section-heading">About Me</h1> 
+        <div class="about-container">
+            <div class="about-image">
+                <img src="me2.jpg" alt="Profile Picture">
+            </div>
+            <div class="about-details">
+                <p>I am passionate about software development, creating impactful solutions, and constantly learning new technologies. I have experience in developing mobile and web applications, and I love collaborating with others to solve problems effectively.</p>
+                <div class="about-tabs">
+                    <button class="tab active" onclick="showTab('skills')">Main Skills</button>
+                    <button class="tab" onclick="showTab('education')">Education</button>
+                    <button class="tab" onclick="showTab('interests')">Interests</button>
+                </div>
+                <div id="skills" class="tab-content">
+                    <div class="skill-item">
+                        <h4>Programming Languages</h4>
+                        <p>Python, Java, PHP</p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Web Development</h4>
+                        <p>HTML, CSS, Laravel</p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Mobile Development</h4>
+                        <p>Flutter, Android</p>
+                    </div>
+                </div>
+                <div id="education" class="tab-content" style="display: none;">
+                    <div class="skill-item">
+                            <h4>2021-Current: Undergraduate Degree</h4>
+                            <p>Bachelor of Informatics and Computer Science</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>2016-2020: High School</h4>
+                            <p>Alliance Girls' High School</p>
+                        </div>
+                    </div>
+                    <div id="interests" class="tab-content" style="display: none;">
+                        <div class="skill-item">
+                        <h4>Tech</h4>
+                        <p>AI, Robotics,IoT</p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Hobbies</h4>
+                        <p>Singing, Cooking, Eating</p>
+                    </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="portfolio">
+        <h1 class="section-heading">Projects</h1> 
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-dna"></i>
+                </div>
+                <h3>ML Model for Cancer Prediction</h3>
+                <p>Developed a machine learning model to predict the likelihood of brain cancer using computer vision.</p>
+                <a href="https://github.com/J-Nyarangi/oncolyticnet.git" class="project-link read-more">View Project</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-university"></i>
+                </div>
+                <h3>University Management System</h3>
+                <p>Developed a University Management System using Laravel to manage student admissions, courses, and staff activities efficiently.</p>
+                <a href="https://github.com/J-Nyarangi/university.git" class="project-link read-more">View Project</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3>Mirror Me</h3>
+                <p>A mobile application developed using Flutter, specifically designed to support individuals with Alzheimer's disease.</p>
+                <a href="https://github.com/J-Nyarangi/mirrorme.git" class="project-link read-more">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wavy SVG Divider After Projects Section -->
+    <div class="wave" style="height: 150px; overflow: hidden;">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C150.00,150.00 349.54,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #f3e8ff;"></path>
+        </svg>
+    </div>
+
+    <section class="contact-skills" id="contact">
+        <h1 class="section-heading">Contact Me</h1>
+        <p class="section-subheading">Let's get in touch</p>
+        <div class="contact-container">
+            <div class="contact-details">
+                <div class="contact-info">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>Call On: +254799373855</p>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email At: nyandukonyarangi@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="send-mail.php" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="first-name" placeholder="First Name" required>
+                        <input type="text" name="last-name" placeholder="Last Name" required>
+                    </div>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Joyllette Nyarangi. All Rights Reserved.</p>
+            <div class="social">
+                <a href="https://github.com/J-Nyarangi" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
